@@ -1,0 +1,15 @@
+{
+  "name": "uscardforum-duo",
+  "version": "3.1.2",
+  "private": true,
+  "description": "美卡论坛 Duo 内屏竖屏布局 userscript",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check uscardforum-duo-mobile.user.js",
+    "build": "node scripts/build-meta.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
